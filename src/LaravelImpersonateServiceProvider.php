@@ -17,4 +17,9 @@ class LaravelImpersonateServiceProvider extends PackageServiceProvider
         $package
             ->name('laravel-impersonate');
     }
+
+    public function boot()
+    {
+        $this->loadRoutesFrom(__DIR__.'/../routes/web.php');
+    }
 }
