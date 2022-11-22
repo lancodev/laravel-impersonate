@@ -1,6 +1,6 @@
 {
     "name": "kylekanderson/laravel-impersonate",
-    "description": "This is my package laravel-impersonate",
+    "description": "A package that provides the ability to impersonate users in Laravel.",
     "keywords": [
         "kylekanderson",
         "laravel",
