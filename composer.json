@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "kylekanderson/laravel-impersonate",
+    "description": "This is my package laravel-impersonate",
     "keywords": [
-        ":vendor_name",
+        "kylekanderson",
         "laravel",
-        ":package_slug"
+        "laravel-impersonate"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/kylekanderson/laravel-impersonate",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Kyle Anderson",
+            "email": "kylekanderson@gmail.com",
             "role": "Developer"
         }
     ],
@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Kylekanderson\\LaravelImpersonate\\": "src",
+            "Kylekanderson\\LaravelImpersonate\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Kylekanderson\\LaravelImpersonate\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -61,10 +61,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Kylekanderson\\LaravelImpersonate\\LaravelImpersonateServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "LaravelImpersonate": "Kylekanderson\\LaravelImpersonate\\Facades\\LaravelImpersonate"
             }
         }
     },
