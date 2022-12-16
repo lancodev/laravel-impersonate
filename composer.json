@@ -1,12 +1,12 @@
 {
-    "name": "kylekanderson/laravel-impersonate",
+    "name": "lancodev/laravel-impersonate",
     "description": "A package that provides the ability to impersonate users in Laravel.",
     "keywords": [
-        "kylekanderson",
+        "lancodev",
         "laravel",
         "laravel-impersonate"
     ],
-    "homepage": "https://github.com/kylekanderson/laravel-impersonate",
+    "homepage": "https://github.com/lancodev/laravel-impersonate",
     "license": "MIT",
     "authors": [
         {
@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Kylekanderson\\LaravelImpersonate\\": "src",
-            "Kylekanderson\\LaravelImpersonate\\Database\\Factories\\": "database/factories"
+            "Lancodev\\LaravelImpersonate\\": "src",
+            "Lancodev\\LaravelImpersonate\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Kylekanderson\\LaravelImpersonate\\Tests\\": "tests"
+            "Lancodev\\LaravelImpersonate\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -61,10 +61,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Kylekanderson\\LaravelImpersonate\\LaravelImpersonateServiceProvider"
+                "Lancodev\\LaravelImpersonate\\LaravelImpersonateServiceProvider"
             ],
             "aliases": {
-                "LaravelImpersonate": "Kylekanderson\\LaravelImpersonate\\Facades\\LaravelImpersonate"
+                "LaravelImpersonate": "Lancodev\\LaravelImpersonate\\Facades\\LaravelImpersonate"
             }
         }
     },

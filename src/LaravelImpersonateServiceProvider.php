@@ -1,6 +1,6 @@
 <?php
 
-namespace Kylekanderson\LaravelImpersonate;
+namespace Lancodev\LaravelImpersonate;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;

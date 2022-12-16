@@ -1,9 +1,9 @@
 <?php
 
-namespace Kylekanderson\LaravelImpersonate\Tests;
+namespace Lancodev\LaravelImpersonate\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Kylekanderson\LaravelImpersonate\LaravelImpersonateServiceProvider;
+use Lancodev\LaravelImpersonate\LaravelImpersonateServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
@@ -13,7 +13,7 @@ class TestCase extends Orchestra
         parent::setUp();
 
         Factory::guessFactoryNamesUsing(
-            fn (string $modelName) => 'Kylekanderson\\LaravelImpersonate\\Database\\Factories\\'.class_basename($modelName).'Factory'
+            fn (string $modelName) => 'Lancodev\\LaravelImpersonate\\Database\\Factories\\'.class_basename($modelName).'Factory'
         );
     }
 

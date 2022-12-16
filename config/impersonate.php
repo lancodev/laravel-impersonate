@@ -1,6 +1,6 @@
 <?php
 
-// config for Kylekanderson/LaravelImpersonate
+// config for Lancodev/LaravelImpersonate
 return [
 
 ];

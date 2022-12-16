@@ -1,6 +1,6 @@
 <?php
 
-namespace Kylekanderson\LaravelImpersonate\Traits;
+namespace Lancodev\LaravelImpersonate\Traits;
 
 use Illuminate\Support\Facades\Crypt;
 

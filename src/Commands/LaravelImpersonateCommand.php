@@ -1,6 +1,6 @@
 <?php
 
-namespace Kylekanderson\LaravelImpersonate\Commands;
+namespace Lancodev\LaravelImpersonate\Commands;
 
 use Illuminate\Console\Command;
 

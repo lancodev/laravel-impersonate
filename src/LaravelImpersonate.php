@@ -1,6 +1,6 @@
 <?php
 
-namespace Kylekanderson\LaravelImpersonate;
+namespace Lancodev\LaravelImpersonate;
 
 class LaravelImpersonate
 {

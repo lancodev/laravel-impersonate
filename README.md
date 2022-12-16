@@ -1,11 +1,11 @@
 # This is my package laravel-impersonate
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/kylekanderson/laravel-impersonate.svg?style=flat-square)](https://packagist.org/packages/kylekanderson/laravel-impersonate)
-[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/kylekanderson/laravel-impersonate/run-tests?label=tests)](https://github.com/kylekanderson/laravel-impersonate/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/kylekanderson/laravel-impersonate/Fix%20PHP%20code%20style%20issues?label=code%20style)](https://github.com/kylekanderson/laravel-impersonate/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
-[![Total Downloads](https://img.shields.io/packagist/dt/kylekanderson/laravel-impersonate.svg?style=flat-square)](https://packagist.org/packages/kylekanderson/laravel-impersonate)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/lancodev/laravel-impersonate.svg?style=flat-square)](https://packagist.org/packages/lancodev/laravel-impersonate)
+[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/lancodev/laravel-impersonate/run-tests?label=tests)](https://github.com/lancodev/laravel-impersonate/actions?query=workflow%3Arun-tests+branch%3Amain)
+[![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/lancodev/laravel-impersonate/Fix%20PHP%20code%20style%20issues?label=code%20style)](https://github.com/lancodev/laravel-impersonate/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
+[![Total Downloads](https://img.shields.io/packagist/dt/lancodev/laravel-impersonate.svg?style=flat-square)](https://packagist.org/packages/lancodev/laravel-impersonate)
 
-This is where your description should go. Limit it to a paragraph or two. Consider adding a small example.
+This package provides a simple way to implement user impersonation within your existing Laravel application.
 
 ## Support us
 
@@ -20,7 +20,7 @@ We highly appreciate you sending us a postcard from your hometown, mentioning wh
 You can install the package via composer:
 
 ```bash
-composer require kylekanderson/laravel-impersonate
+composer require lancodev/laravel-impersonate
 ```
 
 You can publish and run the migrations with:
@@ -52,8 +52,8 @@ php artisan vendor:publish --tag="laravel-impersonate-views"
 ## Usage
 
 ```php
-$laravelImpersonate = new Kylekanderson\LaravelImpersonate();
-echo $laravelImpersonate->echoPhrase('Hello, Kylekanderson!');
+$laravelImpersonate = new Lancodev\LaravelImpersonate();
+echo $laravelImpersonate->echoPhrase('Hello, Lancodev!');
 ```
 
 ## Testing
@@ -76,7 +76,7 @@ Please review [our security policy](../../security/policy) on how to report secu
 
 ## Credits
 
-- [Kyle Anderson](https://github.com/kylekanderson)
+- [Kyle Anderson](https://github.com/lancodev)
 - [All Contributors](../../contributors)
 
 ## License
